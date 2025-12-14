@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Observatorio Espacial</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <div class="brand">Observatorio</div>
+                <ul class="nav-links">
+                    <li><a href="#intro">Inicio</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#multimedia">Video</a></li>
+                    <li><a href="#curiosidades">Datos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="intro" class="section hero">
+                <article>
+                    <h1>Explora el cielo profundo</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda facere rerum consequuntur iure velit debitis ratione eum,
+                        cum dicta quae. Quod aut dolorem officia voluptates illo odit mollitia ipsum nisi?
+                    </p>
+                    <blockquote>
+                        "El universo no solo es mas extrano de lo que imaginamos; es mas extrano de lo que podemos imaginar." — J. B. S. Haldane
+                    </blockquote>
+                    <ul class="list-inline">
+                        <li class="badge">Fotografia espacial</li>
+                        <li class="badge">Datos rapidos</li>
+                        <li class="badge">Video en alta definicion</li>
+                    </ul>
+                </article>
+                <figure class="figure-card">
+                    <img src="assets/galaxia.jpg" alt="Galaxia en colores azules y rosas" />
+                    <figcaption>Galaxia espiral capturada en luz visible.</figcaption>
+                </figure>
+            </section>
+
+            <section id="galeria" class="section">
+                <h2>Galeria de imagenes</h2>
+                <div class="grid gallery-grid">
+                    <figure class="figure-card">
+                        <img src="assets/galaxia.jpg" alt="Otra vista de una galaxia con tonos frios" />
+                        <figcaption>Detalle de brazos espirales.</figcaption>
+                    </figure>
+                    <figure class="figure-card">
+                        <img src="assets/sol.jpg" alt="Superficie del Sol con llamaradas" />
+                        <figcaption>Actividad solar capturada en alta energia.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section id="curiosidades" class="section">
+                <h2>Datos rapidos</h2>
+                <article class="article-card">
+                    <p>Algunos valores de referencia para dimensionar el tamano y la energia en el cosmos.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Objeto</th>
+                                <th>Distancia aproximada</th>
+                                <th>Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sol</td>
+                                <td>149 millones de km</td>
+                                <td>Fuente principal de energia del sistema solar.</td>
+                            </tr>
+                            <tr>
+                                <td>Galaxia de Andromeda</td>
+                                <td>2.5 millones de anios luz</td>
+                                <td>Nuestra vecina mas cercana de gran tamano.</td>
+                            </tr>
+                            <tr>
+                                <td>Limite observable</td>
+                                <td>46,500 millones de anios luz</td>
+                                <td>Radio del universo observable segun el modelo actual.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <aside class="article-card">
+                    <h3>¿Sabias que?</h3>
+                    <p>
+                        Un minuto de video en 4K puede ocupar cientos de megabytes, pero los datos de telescopios espaciales pueden llegar a terabytes
+                        cada dia por eso estudio en la UEA The best university XD```1 `
+                    </p>
+                </aside>
+            </section>
+            <section id="contacto" class="section">
+                <form action="" class="form-card">
+                    <h2>Contacto</h2>
+                    <p>Envianos tus dudas o curiosidades sobre el espacio.</p>
+                    <div class="form-grid">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required />
+
+                        <label for="email">Correo electronico</label>
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required />
+                    </div>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Hecho para practicar etiquetas HTML y estilos CSS clase semana03.</p>
+            `
+            <small><a href="#intro">Volver arriba</a></small>
+        </footer>
+    </body>
+</html>
