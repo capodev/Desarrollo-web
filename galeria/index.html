@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galería de Imágenes Interactiva</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Galería de Imágenes Interactiva</h1>
+
+            <!-- Controles para agregar imagen -->
+            <div class="controls-section">
+                <div class="add-image-container">
+                    <label for="imageInput">Agregar nueva imagen:</label>
+                    <input type="file" id="imageInput" accept="image/*" />
+                    <button id="addImageBtn" class="btn btn-primary">+ Agregar imagen</button>
+                </div>
+            </div>
+
+            <!-- Grid de imágenes -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Las imágenes se generarán con JavaScript -->
+            </div>
+
+            <!-- Modal para ver la imagen ampliada -->
+            <div id="imageModal" class="modal">
+                <div class="modal-content">
+                    <button class="close-btn" id="closeBtn">&times;</button>
+
+                    <div class="modal-header">
+                        <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+                        <img id="modalImage" src="" alt="Imagen ampliada" />
+                        <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+                    </div>
+
+                    <div class="modal-footer">
+                        <p id="imageInfo">Imagen <span id="currentIndex">1</span> de <span id="totalImages">12</span></p>
+                        <button id="deleteImageBtn" class="btn btn-danger">🗑 Eliminar imagen</button>
+                    </div>
+
+                    <!-- Miniaturas de navegación -->
+                    <div class="thumbnails" id="thumbnailsContainer">
+                        <!-- Las miniaturas se generarán con JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información de la galería -->
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
