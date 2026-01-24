@@ -1,17 +1,14 @@
 // Array con las imágenes disponibles
 let images = [
-    "assets/1.jpg",
-    "assets/2.jpg",
-    "assets/3.jpg",
-    "assets/4.jpg",
-    "assets/5.jpg",
-    "assets/6.jpg",
-    "assets/7.jpg",
-    "assets/8.jpg",
-    "assets/9.jpg",
-    "assets/10.jpg",
-    "assets/11.jpg",
-    "assets/12.jpg",
+    "assets/1.webp",
+    "assets/2.webp",
+    "assets/3.webp",
+    "assets/4.webp",
+    "assets/5.webp",
+    "assets/6.webp",
+    "assets/7.webp",
+    "assets/8.webp",
+    "assets/9.webp",
 ];
 
 // Variables globales
